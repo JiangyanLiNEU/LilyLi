@@ -1,9 +1,10 @@
 import HomePage from "./components/HomePage";
+import NavBar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Lily website setup :-)</h1>
+      <NavBar></NavBar>
       <HomePage></HomePage>
     </div>
   );
