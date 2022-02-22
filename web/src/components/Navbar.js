@@ -14,7 +14,8 @@ function NavBar (){
      }
      const nameStyle = {
           fontSize:"xxx-large",
-          color:"#6a994e"
+          color:"#6a994e",
+          // color:"white"
      }
      return (
           <div style={{marginBottom:"20px"}}>
