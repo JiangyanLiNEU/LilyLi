@@ -18,7 +18,7 @@ function NavBar (){
           // color:"white"
      }
      return (
-          <div style={{marginBottom:"20px"}}>
+          <div style={{marginBottom:"50px"}}>
                <Navbar collapseOnSelect style={navBarStyle} expand="lg">
                     <Container>
                          <Navbar.Brand href="#home" style={nameStyle} >Lily Li   :-)</Navbar.Brand>
