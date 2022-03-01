@@ -1,37 +1,24 @@
 import Container from "react-bootstrap/esm/Container";
-import {Row, Col} from 'react-bootstrap';
-import lily from '../images/lily.png';
-import vertical from '../images/vertical.png';
-import s from '../images/small.jpg';
-import c from '../images/t.jpg';
+import t from '../images/t.jpg';
 function HomePage(){
-
-     
      const height = window.outerHeight;
-     // console.log(height/2);
-     // let text = window.outerHeight;
-     // console.log(text);
      const frameStyle = {
-          // width: "85%",
           height:height*0.7+"px",
           margin:"auto",
-          backgroundImage: `url(${c})`,
+          backgroundImage: `url(${t})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
-          padding: "20px"
-
+          padding: "20px",
+          marginTop:"50px"
      }
 
-     const colorRBG = "#8d99ae";
      const englishStyle = {
           fontFamily: "'Hubballi', cursive",
-          color:colorRBG,
+          color:"#8d99ae",
           fontSize:"x-large",
           fontWeight:"bold",
           textAlign:"center"
-          // margin:"auto"
-          // float:"right"
      }
 
      const chineseStyle = {
@@ -44,7 +31,7 @@ function HomePage(){
      return (
           <div style={frameStyle} className="grid">
                <Container style={{margin:"auto", height:height+"px"}}>
-                    <h4 style={{fontSize:"x-large",fontWeight:"bold",  fontFamily: "'Hubballi', cursive", marginTop:"20px", color:colorRBG, textAlign:"center"}}>Hi there, I am Lily!</h4>
+                    <h4 style={englishStyle}>Hi there, I am Lily!</h4>
                     <h4 style={chineseStyle}>嗨你好！</h4>
                     <h4 style={englishStyle}>Hope you are doing well!</h4>
                     <h4 style={chineseStyle}>好久不见 希望一切都好</h4>
