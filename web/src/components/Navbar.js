@@ -21,13 +21,13 @@ function NavBar (){
           <div style={{marginBottom:"50px"}}>
                <Navbar collapseOnSelect style={navBarStyle} expand="lg">
                     <Container>
-                         <Navbar.Brand href="#home" style={nameStyle} >Lily Li   :-)</Navbar.Brand>
+                         <Navbar.Brand href="/" style={nameStyle} >Lily Li   :-)</Navbar.Brand>
                          
                          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                          <Navbar.Collapse id="responsive-navbar-nav">
                               <Nav className="me-auto">
-                                   <Nav.Link href="#home">Home</Nav.Link>
-                                   <Nav.Link href="#experience">Experience</Nav.Link>
+                                   <Nav.Link href="/">Home</Nav.Link>
+                                   <Nav.Link href="/experience">Experience</Nav.Link>
                                    <NavDropdown title="More" id="collasible-nav-dropdown">
                                         <NavDropdown.Item href="#action/3.1">Blog      <FaRegPaperPlane/ ></NavDropdown.Item>
                                         <NavDropdown.Divider />

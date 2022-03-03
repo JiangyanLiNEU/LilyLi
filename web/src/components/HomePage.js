@@ -1,9 +1,9 @@
 import Container from "react-bootstrap/esm/Container";
 import t from '../images/t.jpg';
 function HomePage(){
-     const height = window.outerHeight;
+     const height = window.innerHeight;
      const frameStyle = {
-          height:height*0.7+"px",
+          height:height*0.8+"px",
           margin:"auto",
           backgroundImage: `url(${t})`,
           backgroundPosition: 'center',
@@ -22,14 +22,14 @@ function HomePage(){
      }
 
      const chineseStyle = {
-          fontFamily: "'ZCOOL QingKe HuangYou', cursive",
+          fontFamily: "'Ma Shan Zheng', cursive",
           color: "#6a994e",
           textAlign:"center"
           // margin:"auto"
           // float:"left "
      }
      return (
-          <div style={frameStyle} className="grid">
+          <div style={frameStyle} className="grid"><br/><br/>
                <Container style={{margin:"auto", height:height+"px"}}>
                     <h4 style={englishStyle}>Hi there, I am Lily!</h4>
                     <h4 style={chineseStyle}>嗨你好！</h4>
@@ -45,10 +45,10 @@ function HomePage(){
                     <br/>
                     <br/>
                     <br/>
-                    <h3 style={englishStyle}>Big Fan Of:</h3>
+                    {/* <h3 style={englishStyle}>Big Fan Of:</h3>
                     <h3 style={englishStyle}>Chess: <a href="https://www.chess.com/member/joshwillbekickedass" target="_blank">Chess Account</a></h3>
                     <h3 style={englishStyle}>Books</h3>
-                    <h3 style={englishStyle}>Fitness/Nutrition</h3>
+                    <h3 style={englishStyle}>Fitness/Nutrition</h3> */}
                     
 
                </Container>
