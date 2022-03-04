@@ -28,7 +28,7 @@ function Experience(){
      const getAll = () => {
        let result = []
        result.push(getP("Sep - Dec 2022", "Software Intern", "Tiktok", "Work with front end team in US to develop Tiktok website"));
-       result.push(getP("July - Sep 2022", "Software Intern", "Amazon", "Still waiting to know the team"))
+       result.push(getP("June - Sep 2022", "Software Intern", "Amazon", "Still waiting to know the team"))
        result.push(getP("May - June 2022", "Software Intern", "Akuna Capital", "Work in UI team"))
        result.push(getP("Feb - May 2022", "CSRMP fellow", "Google", "Explore cs research with Google Mentor"))
        result.push(getP("May 2021 - Present", "TA", "Northeastern University", "TA for CS5008 and CS5800"))
@@ -48,6 +48,7 @@ function Experience(){
           align={LeftOrRight}
           variant="body2"
           color="#6a994e"
+          style={{fontFamily: "'Syne Mono', monospace"}}
         >
           {obj.date}
         </TimelineOppositeContent>
@@ -58,11 +59,11 @@ function Experience(){
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '10px', px: 2 }}>
-          <Typography variant="h6" fontSize="20px" component="span"  color="#9b2226">
+          <Typography style={{fontFamily: "'Syne Mono', monospace"}} variant="h6" fontSize="20px" component="span"  color="#9b2226">
           {obj.posi}
           </Typography>
           <br/>
-          <Typography variant="h6" fontSize="18px" component="span" color="#9b2226">
+          <Typography style={{fontFamily: "'Syne Mono', monospace"}} variant="h6" fontSize="18px" component="span" color="#9b2226">
           {obj.name}
           </Typography>
           {/* <Typography>{obj.describe}</Typography> */}

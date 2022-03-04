@@ -14,7 +14,8 @@ function HomePage(){
      }
 
      const englishStyle = {
-          fontFamily: "'Hubballi', cursive",
+          // fontFamily: "'Hubballi', cursive",
+          fontFamily: "'Syne Mono', monospace",
           color:"#8d99ae",
           fontSize:"x-large",
           fontWeight:"bold",
