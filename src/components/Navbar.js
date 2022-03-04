@@ -26,10 +26,10 @@ export const NavBar = () => {
                          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                          <Navbar.Collapse id="responsive-navbar-nav">
                               <Nav className="me-auto">
-                                   <Nav.Link href="/">Home</Nav.Link>
-                                   <Nav.Link href="/experience">Experience</Nav.Link>
+                                   <Nav.Link href="/LilyLi">Home</Nav.Link>
+                                   <Nav.Link href="/LilyLi/#experience#experience">Experience</Nav.Link>
                                    <NavDropdown title="More" id="collasible-nav-dropdown">
-                                        <NavDropdown.Item href="/blog">About Me      <FaRegPaperPlane/ ></NavDropdown.Item>
+                                        <NavDropdown.Item href="/LilyLi/#blog#blog">About Me      <FaRegPaperPlane/ ></NavDropdown.Item>
                                         <NavDropdown.Divider />
                                         <NavDropdown.Item href="https://github.com/JiangyanLiNEU?tab=repositories" target="_blank">Github   <FaGithub></FaGithub> </NavDropdown.Item>
                                         <NavDropdown.Item href="https://www.linkedin.com/in/lilylics/" target="_blank">Linkedin    <FaLinkedinIn/></NavDropdown.Item>
@@ -43,4 +43,4 @@ export const NavBar = () => {
                </Navbar>
           </div>
      )
-};
+}
