@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LilyLi/static/css/main.b1b4692d.css",
+    "main.js": "/LilyLi/static/js/main.5941fbaf.js",
+    "static/media/horizonal.png": "/LilyLi/static/media/horizonal.d51cfb63c453cf343c9f.png",
+    "static/media/t.jpg": "/LilyLi/static/media/t.f901c875555e699e6e19.jpg",
+    "static/media/f.jpg": "/LilyLi/static/media/f.2e8c643b4fad2e584a8c.jpg",
+    "index.html": "/LilyLi/index.html",
+    "main.b1b4692d.css.map": "/LilyLi/static/css/main.b1b4692d.css.map",
+    "main.5941fbaf.js.map": "/LilyLi/static/js/main.5941fbaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1b4692d.css",
+    "static/js/main.5941fbaf.js"
+  ]
+}
