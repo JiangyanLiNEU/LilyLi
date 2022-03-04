@@ -4,8 +4,9 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <div>
+    <NavBar></NavBar>
     <App />
-  </React.StrictMode>,
+  </div>,
   document.getElementById('root')
 );
