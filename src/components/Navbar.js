@@ -21,7 +21,7 @@ export const NavBar = () => {
           <div style={{marginBottom:"50px"}}>
                <Navbar collapseOnSelect style={navBarStyle} expand="lg">
                     <Container>
-                         <Navbar.Brand href="/" style={nameStyle} >Lily Li   :-)</Navbar.Brand>
+                         <Navbar.Brand href="/LilyLi" style={nameStyle} >Lily Li   :-)</Navbar.Brand>
                          
                          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                          <Navbar.Collapse id="responsive-navbar-nav">
