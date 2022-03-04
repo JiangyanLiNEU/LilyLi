@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/LilyLi/static/js/main.6d312c46.chunk.js",
-    "main.js.map": "/LilyLi/static/js/main.6d312c46.chunk.js.map",
+    "main.js": "/LilyLi/static/js/main.6c8e2376.chunk.js",
+    "main.js.map": "/LilyLi/static/js/main.6c8e2376.chunk.js.map",
     "runtime-main.js": "/LilyLi/static/js/runtime-main.db12a95c.js",
     "runtime-main.js.map": "/LilyLi/static/js/runtime-main.db12a95c.js.map",
     "static/css/2.74195455.chunk.css": "/LilyLi/static/css/2.74195455.chunk.css",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.db12a95c.js",
     "static/css/2.74195455.chunk.css",
     "static/js/2.eb3d8cc4.chunk.js",
-    "static/js/main.6d312c46.chunk.js"
+    "static/js/main.6c8e2376.chunk.js"
   ]
 }
