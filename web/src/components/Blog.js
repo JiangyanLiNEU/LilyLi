@@ -79,7 +79,7 @@ function Blog (){
                <Container style={sectionStyle}>
                     <h1>Hobby</h1>
                     <Accordion style={{}}>
-                    {TechItem("Fitness/Nutrition", ["I did a Marathon when I was 20 years old! But I hated running afterwards..", "Josh and I have been doing Staturday Morning 40 minutes jogging Since Feb 2022. It feels great again! ","I also do Strength Training regularly.","I love trying new food and keep nutrition-balanced diet.", "Unfortunatly Josh hates my ULTRA healthy creation sometimes!"])}
+                    {TechItem("Fitness/Nutrition", ["I did a Marathon when I was 20 years old! But I hated running afterwards..", "Josh and I have been doing Staturday Morning 40 minutes jogging Since Feb 2022. It feels great!","I also do Strength Training regularly.","I love trying new food and keep nutrition-balanced diet.", "Unfortunatly Josh hates my ULTRA healthy creation sometimes!"])}
                          {TechItem("Chess", ["5 mins chess is my favoriate! Let's play together!","Find me https://www.chess.com/member/joshwillbekickedass"])}
                          {TechItem("Travel",["Travel a lot in US", "Three months in South America"])}
                          {TechItem("Plant", ["I love having plants in my apartment!", "I am taking care of one Money tree, two Avocado tree, two Monstera, three Benjamin Fig,  in my apartment!"])}

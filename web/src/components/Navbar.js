@@ -29,7 +29,7 @@ function NavBar (){
                                    <Nav.Link href="/">Home</Nav.Link>
                                    <Nav.Link href="/experience">Experience</Nav.Link>
                                    <NavDropdown title="More" id="collasible-nav-dropdown">
-                                        <NavDropdown.Item href="/blog">Blog      <FaRegPaperPlane/ ></NavDropdown.Item>
+                                        <NavDropdown.Item href="/blog">About Me      <FaRegPaperPlane/ ></NavDropdown.Item>
                                         <NavDropdown.Divider />
                                         <NavDropdown.Item href="https://github.com/JiangyanLiNEU?tab=repositories" target="_blank">Github   <FaGithub></FaGithub> </NavDropdown.Item>
                                         <NavDropdown.Item href="https://www.linkedin.com/in/lilylics/" target="_blank">Linkedin    <FaLinkedinIn/></NavDropdown.Item>
