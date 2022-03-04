@@ -3,7 +3,7 @@ import NavBar from "./components/Navbar";
 import Experience from './components/Experience';
 import Blog from "./components/Blog";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
@@ -16,11 +16,11 @@ function App() {
       <div className="App">
       <NavBar></NavBar>
     </div>
-    <Routes>
+    <Switch>
       <Route exact path="/" element={<HomePage/>}></Route>
       <Route exact path="/experience" element={<Experience/>}></Route>
       <Route exact path="/blog" element={<Blog/>}></Route>
-    </Routes>
+    </Switch>
     </Router>
     
   );
