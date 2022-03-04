@@ -6,11 +6,11 @@ import {Switch, Link, Route, HashRouter as Router} from 'react-router-dom';
 function App() {
   return (
     <div>
-    <Router hashType='noslash' basename={window.localStorage.pathname || ''}>
+    <Router hashType='noslash'  basename={window.localStorage.pathname || ''}>
     <Switch>
-      <Route exact path="/" component={<HomePage/>}></Route>
-      <Route path="/experience" component={<Experience/>}></Route>
-      <Route path="/blog" component={<Blog/>}></Route>
+      <Route exact path="/" component={HomePage}/>
+      <Route path="/experience" component={Experience}/>
+      <Route path="/blog" component={Blog}/>
     </Switch>
     </Router>
     </div>
