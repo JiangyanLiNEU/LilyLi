@@ -1,6 +1,6 @@
-import HomePage from "./components/HomePage";
-import Experience from './components/Experience';
-import Blog from "./components/Blog";
+import {HomePage} from "./components/HomePage";
+import {Experience} from './components/Experience';
+import {Blog} from "./components/Blog";
 import {Switch, Link, Route, HashRouter as Router} from 'react-router-dom';
 
 function App() {
