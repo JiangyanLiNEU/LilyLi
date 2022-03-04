@@ -16,11 +16,11 @@ function App() {
       <div className="App">
       <NavBar></NavBar>
     </div>
-    <Switch>
+    <Routes>
       <Route exact path="/" element={<HomePage/>}></Route>
       <Route exact path="/experience" element={<Experience/>}></Route>
       <Route exact path="/blog" element={<Blog/>}></Route>
-    </Switch>
+    </Routes>
     </Router>
     
   );
