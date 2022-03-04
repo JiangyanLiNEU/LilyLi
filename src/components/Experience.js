@@ -10,7 +10,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import Typography from '@mui/material/Typography';
 import Container from 'react-bootstrap/esm/Container';
 import f from '../images/f.jpg'
-function Experience(){
+export const Experience = () => {
      
      const height = window.innerHeight;
      console.log(height)
@@ -89,5 +89,3 @@ function Experience(){
             </Timeline></div>
      )
 }
-
-export default Experience;

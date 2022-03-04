@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
 import t from '../images/t.jpg';
-function HomePage(){
+export const HomePage = () => {
      const height = window.innerHeight;
      const frameStyle = {
           height:height*0.8+"px",
@@ -57,5 +57,3 @@ function HomePage(){
           </div>
      )
 }
-
-export default HomePage;

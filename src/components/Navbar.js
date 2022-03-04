@@ -8,7 +8,7 @@ import {FaGithub} from 'react-icons/fa'
 import {FaLinkedinIn} from 'react-icons/fa'
 import {FaInstagram} from 'react-icons/fa'
 import {FaRegPaperPlane} from 'react-icons/fa'
-function NavBar (){
+export const NavBar = () => {
      const navBarStyle = {
           backgroundColor:"#f6bd60", text:"#000000", fontFamily:"Gochi Hand, cursive", fontSize:"1.5em"
      }
@@ -44,5 +44,3 @@ function NavBar (){
           </div>
      )
 };
-
-export default NavBar;

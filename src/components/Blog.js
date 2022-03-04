@@ -2,7 +2,7 @@ import {Container} from "react-bootstrap";
 import { Checkbox, Rating } from '@mui/material';
 import { Accordion } from "react-bootstrap";
 import h from '../images/horizonal.png'
-function Blog (){
+export const Blog = () => {
      const height = window.innerHeight;
      const width = window.innerWidth;
      const frameStyle = {
@@ -90,5 +90,3 @@ function Blog (){
           </div>
      )
 }
-
-export default Blog;
